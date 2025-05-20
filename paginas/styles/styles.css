@@ -8,6 +8,7 @@ body{
     background: linear-gradient(to top, rgb(221, 233, 252), white);
 }
 
+/* marquee do "venha se divertir" */
 marquee{
     background-color: navy;
     color: white;
@@ -15,45 +16,62 @@ marquee{
     font-weight: bold;
     width: 1000px;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
+/* rodapé */
 footer{
     color: navy;
 }
 
+/* fonte do formulário maior */
 .formulario{
     font-size: larger;
 }
+
+/* título dos campos dos formulários */
 legend{
     font-weight: bold;
 }
+
+/* alguns botões (infos pessoais e gênero) */
 input{
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
+/* botões de mensagem */
 button {
     border-radius: 5px;
+    transition: all 0.3s ease;
     cursor: pointer;
+    padding: 5px 15px;
+    border: 2px solid cornflowerblue;
     background-color: white;
-    transition-duration: 0.3s;
-    /* border: 2px solid midnightblue; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    
 }
-butto:hover{
+button:hover{
     background-color: cornflowerblue;
-    border: 2px solid;
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
+/* campo de mensagem */
 textarea{
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
+
+/* botão de selcione para ocupação */
 select{
     font-size: 0.95em;
+    border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
-label{
-    cursor: pointer;
-}
+
 
 hr{
     width: 50%;
@@ -80,4 +98,5 @@ p{
 img{
     width: 1000px;
     border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
