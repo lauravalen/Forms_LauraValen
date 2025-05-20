@@ -29,15 +29,30 @@ legend{
 }
 input{
     border-radius: 5px;
+    cursor: pointer;
 }
-button:hover{
+
+button {
     border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    transition-duration: 0.3s;
+    /* border: 2px solid midnightblue; */
 }
+butto:hover{
+    background-color: cornflowerblue;
+    border: 2px solid;
+}
+
 textarea{
     border-radius: 5px;
 }
 select{
     font-size: 0.95em;
+    cursor: pointer;
+}
+label{
+    cursor: pointer;
 }
 
 hr{
