@@ -1,7 +1,68 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: large;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(to top, rgb(214, 223, 245), white);
 }
 
-img{
+marquee{
+    background-color: navy;
+    color: white;
+    font-size: 1.35em;
+    font-weight: bold;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+footer{
+    color: navy;
+}
+
+.formulario{
+    font-size: larger;
+}
+legend{
+    font-weight: bold;
+}
+input{
+    border-radius: 5px;
+}
+button:hover{
+    border-radius: 5px;
+}
+textarea{
+    border-radius: 5px;
+}
+select{
+    font-size: 0.95em;
+}
+
+hr{
     width: 50%;
+    height: 2px;
+    background-color: rgb(206, 214, 238);
+}
+
+h3{
+    color: navy;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+h1{
+    font-size: 2.8em;
+}
+h2{
+    font-weight: bolder;
+}
+p{
+    font-size: 1.25em;
+}
+
+
+img{
+    width: 1000px;
+    border-radius: 30px;
 }
